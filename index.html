@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claw Dating App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <div class="header">
+      <h1>Welcome to Claw</h1>
+      <p>Your next match is just a claw away!</p>
+    </div>
+
+    <div id="user-info">
+      <h2>Hi there, <span id="username"></span>!</h2>
+      <p>Let's find your match.</p>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
+        <h3 id="user-name">John Doe</h3>
+        <p id="user-bio">Loves coffee and adventures!</p>
+        <button class="action-btn like-btn">❤️ Like</button>
+        <button class="action-btn skip-btn">💔 Skip</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
